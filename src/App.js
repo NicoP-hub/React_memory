@@ -31,18 +31,11 @@ class App extends Component {
     const won = new Date().getSeconds() % 2 === 0
     return (
         <div className="memory">
-          <GuessCount guesses={0} />
-          <Card card="😀" feedback="hidden" onClick={this.handleCardClick} />
-          <Card card="🎉" feedback="justMatched" onClick={this.handleCardClick} />
-          <Card
-              card="💖"
-              feedback="justMismatched"
-              onClick={this.handleCardClick}
-          />
-          <Card card="🎩" feedback="visible" onClick={this.handleCardClick} />
-          <Card card="🐶" feedback="hidden" onClick={this.handleCardClick} />
-          <Card card="🐱" feedback="justMatched" onClick={this.handleCardClick} />
-          {won && <p>GAGNÉ !</p>}
+         <GuessCount guesses={0}/>
+            {this.cards.map((card, index) => (
+                <Card card={card} feedback="visible" key={index} onClick={this.handleCardClick} />
+            ))}
+            {won && <p> GAGNE ! </p>}
         </div>
     )
   }
