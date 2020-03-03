@@ -1,11 +1,17 @@
 import React from 'react'
 
-import './HallOfFame.css'
+import './HallOfFrame.css'
 
 const HallOfFame = ({ entries }) => (
     <table className="hallOfFame">
         <tbody>
-        <tr>FIXME</tr>
+        {entries.map(({id, date, guesses, player}) =>(
+            <tr key={id}>
+                <td className="date">{date}</td>
+                <td className="guesses">{guesses}</td>
+                <td className="player">{player}</td>
+            </tr>
+        ))}
         </tbody>
     </table>
 )

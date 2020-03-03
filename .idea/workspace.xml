@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfdba024-1d9c-44e8-993f-6c3f147fa9df" name="Default Changelist" comment="" />
+    <list default="true" id="bfdba024-1d9c-44e8-993f-6c3f147fa9df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HallOfFrame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HallOfFrame.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582729993262</updated>
       <workItem from="1582729994795" duration="11867000" />
-      <workItem from="1583137766961" duration="7983000" />
+      <workItem from="1583137766961" duration="9532000" />
     </task>
     <task id="LOCAL-00001" summary="inti list">
       <created>1583168300094</created>
@@ -122,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583231948209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="List react">
+      <created>1583232099239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583232099239</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +153,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="inti list" />
     <MESSAGE value="List react" />
