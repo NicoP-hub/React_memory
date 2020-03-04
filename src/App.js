@@ -57,10 +57,10 @@ class App extends Component {
   }
 
   handleNewPairCloseBy = index => {
-        const {cards, currentPair, guesses, matchedCardIndices} = this.state
-        const newPair = [currentPair[0], index]
+      const {cards, currentPair, guesses, matchedCardIndices} = this.state
+      const newPair = [currentPair[0], index]
       const newGuesses = guesses+1
-      const matched = cards[newPair[0]] === cards[newPair[1]]
+      const matched = (cards[newPair[0]] === cards[newPair[1]] && newPair[0] !== newPair[1])
       this.setState({ currentPair: newPair, guesses: newGuesses})
       if(matched){
           this.setState({ matchedCardIndices:  [...matchedCardIndices, ...newPair]})
@@ -71,8 +71,9 @@ class App extends Component {
   render() {
         const { cards, guesses, matchedCardIndices} = this.state
         const won = matchedCardIndices.length === cards.length
+      console.log( 'won' + won + '// matchedCardIndices = '+matchedCardIndices.length+' // cards='+cards.length )
         return (
-            <div className="memory">
+            <div className="memory" age=true>
              <GuessCount guesses={guesses}/>
                 {cards.map((card, index) => (
                     <Card card={card} feedback={this.getFeedBackForCard(index)} key={index} index={index} onClick={this.handleCardClick} />
