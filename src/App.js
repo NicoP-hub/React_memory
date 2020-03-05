@@ -6,6 +6,7 @@ import './App.css'
 import Card from './Card'
 import GuessCount from './GuessCount'
 import HallOfFrame, { FAKE_HOF } from './HallOfFrame'
+import HighScoreInput from "./HightScoreInput";
 
 const SIDE = 6
 const SYMBOLS = '😀🎉💖🎩🐶🐱🦄🐬🌍🌛🌞💫🍎🍌🍓🍐🍟🍿'
@@ -73,12 +74,12 @@ class App extends Component {
         const won = matchedCardIndices.length === cards.length
       console.log( 'won' + won + '// matchedCardIndices = '+matchedCardIndices.length+' // cards='+cards.length )
         return (
-            <div className="memory" age=true>
+            <div className="memory">
              <GuessCount guesses={guesses}/>
                 {cards.map((card, index) => (
                     <Card card={card} feedback={this.getFeedBackForCard(index)} key={index} index={index} onClick={this.handleCardClick} />
                 ))}
-                {won && <HallOfFrame entries={FAKE_HOF} />}
+                <HighScoreInput guesses={guesses} />
             </div>
         )
   }
