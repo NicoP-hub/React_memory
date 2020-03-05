@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import './HallOfFrame.css'
+import './HallOfFame.css'
 
 const HallOfFame = ({ entries }) => (
     <table className="hallOfFame">
