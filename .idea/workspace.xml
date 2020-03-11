@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfdba024-1d9c-44e8-993f-6c3f147fa9df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exemplesCodeES2015/simpleInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HallOfFrame.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HallOfFame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HallOfFrame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HallOfFame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HallOfFame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HallOfFame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HightScoreInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HightScoreInput.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +114,9 @@
       <workItem from="1582729994795" duration="11867000" />
       <workItem from="1583137766961" duration="16256000" />
       <workItem from="1583312465285" duration="12800000" />
-      <workItem from="1583397079711" duration="3817000" />
+      <workItem from="1583397079711" duration="4474000" />
+      <workItem from="1583485729592" duration="2915000" />
+      <workItem from="1583922145211" duration="5074000" />
     </task>
     <task id="LOCAL-00001" summary="inti list">
       <created>1583168300094</created>
@@ -164,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583424998257</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HallOfFame">
+      <created>1583425186651</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583425186651</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +200,18 @@
     <MESSAGE value="inti list" />
     <MESSAGE value="List react" />
     <MESSAGE value="seState" />
-    <option name="LAST_COMMIT_MESSAGE" value="seState" />
+    <MESSAGE value="HallOfFame" />
+    <option name="LAST_COMMIT_MESSAGE" value="HallOfFame" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/HightScoreInput.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
