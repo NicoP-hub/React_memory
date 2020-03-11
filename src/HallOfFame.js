@@ -42,7 +42,8 @@ const HOF_KEY = '::Memory::HallofFame'
 const HOF_MAX_SIZE = 10
 
 export function saveHOFEntry(entry, onStored) {
-    entry.date = new Date().toLocaleDateString()
+    let dateNow = new Date;
+    entry.date = dateNow.toLocaleDateString()+" "+dateNow.toLocaleTimeString()
     entry.id = Date.now()
 
     const entries = JSON.parse(localStorage.getItem(HOF_KEY) || '[]')

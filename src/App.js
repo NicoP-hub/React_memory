@@ -77,7 +77,7 @@ class App extends Component {
 
   render() {
         const { cards, guesses, hallOfFame, matchedCardIndices} = this.state
-        const won = matchedCardIndices.length === 4 //for test cards.length
+        const won = matchedCardIndices.length === 2//for test cards.length
       console.log( 'won' + won + '// matchedCardIndices = '+matchedCardIndices.length+' // cards='+cards.length )
         return (
             <div className="memory">

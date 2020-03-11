@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfdba024-1d9c-44e8-993f-6c3f147fa9df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exemplesCodeES2015/simpleInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exempleChamp/autoCompletion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reStart-btn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HallOfFame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HallOfFame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HightScoreInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HightScoreInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exemplesCodeES2015/simpleInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/exempleChamp/simpleInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +54,14 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ProjetPhp\angular\memory\src\exempleChamp" />
       <recent name="C:\ProjetPhp\angular\memory\src\exemplesCodeES2015" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\ProjetPhp\angular\memory\src\exemplesCodeES2015" />
     </key>
   </component>
@@ -116,7 +123,7 @@
       <workItem from="1583312465285" duration="12800000" />
       <workItem from="1583397079711" duration="4474000" />
       <workItem from="1583485729592" duration="2915000" />
-      <workItem from="1583922145211" duration="5074000" />
+      <workItem from="1583922145211" duration="10180000" />
     </task>
     <task id="LOCAL-00001" summary="inti list">
       <created>1583168300094</created>
@@ -174,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583425186651</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="HighScoreInput">
+      <created>1583933539034</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583933539034</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +215,8 @@
     <MESSAGE value="List react" />
     <MESSAGE value="seState" />
     <MESSAGE value="HallOfFame" />
-    <option name="LAST_COMMIT_MESSAGE" value="HallOfFame" />
+    <MESSAGE value="HighScoreInput" />
+    <option name="LAST_COMMIT_MESSAGE" value="HighScoreInput" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
