@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfdba024-1d9c-44e8-993f-6c3f147fa9df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exempleChamp/autoCompletion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reStart-btn.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jest.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HallOfFame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HallOfFame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exemplesCodeES2015/simpleInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/exempleChamp/simpleInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessCount.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HallOfFame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HallOfFame.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HightScoreInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HightScoreInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exempleChamp/simpleInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/exempleChamp/simpleInput.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,7 +125,9 @@
       <workItem from="1583312465285" duration="12800000" />
       <workItem from="1583397079711" duration="4474000" />
       <workItem from="1583485729592" duration="2915000" />
-      <workItem from="1583922145211" duration="10180000" />
+      <workItem from="1583922145211" duration="12507000" />
+      <workItem from="1584002814170" duration="1917000" />
+      <workItem from="1584008057609" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="inti list">
       <created>1583168300094</created>
@@ -188,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583933539034</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="From react + tests">
+      <created>1583942034478</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583942034478</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,13 +227,14 @@
     <MESSAGE value="seState" />
     <MESSAGE value="HallOfFame" />
     <MESSAGE value="HighScoreInput" />
-    <option name="LAST_COMMIT_MESSAGE" value="HighScoreInput" />
+    <MESSAGE value="From react + tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="From react + tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/HightScoreInput.js</url>
+          <url>file://$PROJECT_DIR$/src/HightScoreInput.jsx</url>
           <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
